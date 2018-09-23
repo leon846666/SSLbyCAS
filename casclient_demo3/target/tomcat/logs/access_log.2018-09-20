@@ -13,3 +13,7 @@
 0:0:0:0:0:0:0:1 - - [20/Sep/2018:23:15:37 -0400] "GET /login/cas?ticket=ST-6-g9nxfEvnrvZhji1ccACd-cas01.example.org HTTP/1.1" 302 - http-bio-9003-exec-5 28
 0:0:0:0:0:0:0:1 - - [20/Sep/2018:23:15:37 -0400] "GET / HTTP/1.1" 200 160 http-bio-9003-exec-5 2
 127.0.0.1 - - [20/Sep/2018:23:17:01 -0400] "POST /login/cas HTTP/1.1" 200 - http-bio-9003-exec-2 5
+0:0:0:0:0:0:0:1 - - [20/Sep/2018:23:33:06 -0400] "GET / HTTP/1.1" 302 - http-bio-9003-exec-1 67
+0:0:0:0:0:0:0:1 - - [20/Sep/2018:23:33:09 -0400] "GET /login/cas?ticket=ST-1-eql4MPcZDMnHiNVfe7yf-cas01.example.org HTTP/1.1" 302 - http-bio-9003-exec-2 90
+0:0:0:0:0:0:0:1 - - [20/Sep/2018:23:33:09 -0400] "GET / HTTP/1.1" 200 160 http-bio-9003-exec-3 8
+0:0:0:0:0:0:0:1 - - [20/Sep/2018:23:33:35 -0400] "GET /findLoginUser.do HTTP/1.1" 200 - http-bio-9003-exec-4 651
